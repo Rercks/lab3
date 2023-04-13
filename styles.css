@@ -1,0 +1,51 @@
+body {
+    background: url("https://images.vexels.com/media/users/3/156610/isolated/lists/aa5e27436f6f22dc229b21f4f152198f-icono-plano-frontal-de-sombrero-de-chef.png");
+    background-repeat: repeat;
+}
+
+#contenedor {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 25px;
+    height: 100%;
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+#header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    background-color: #5c5a5a;
+    padding: 15px;
+    color: #ffffff;
+}
+
+#header ul li a:hover {
+    background-color: #272626;
+    text-decoration: underline;
+}
+
+#video {
+    padding: 50px 0;
+    text-align: center;
+}
+.ingrediente img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ingrediente p {
+    font-size: 20px;
+}
